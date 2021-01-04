@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" >
+</head>
+<body>
+    <div class="container">
+        <div class="form-wrap">
+            <form>
+                <!-- Sign Up text  -->
+                <h1 id="sign-up-text-starting">Sign Up</h1>
+                <p id="below-starting-sign-up">It's free and takes only one minute</p>
+                <!-- First name  -->
+                <div class="form-group">
+                    <label for="fname">First name</label><br>
+                    <input type="text" name="fname" placeholder="ex. John">
+                </div>
+
+                <!-- Last name -->
+                <div class="form-group">
+                    <label for="lname">Last name</label><br>
+                    <input type="password" name="lname" placeholder="ex. Doe">
+                </div>
+                
+                <!-- Email -->
+                <div class="form-group">
+                    <label for="Email">Email</label><br>
+                    <input type="text" name="Email" placeholder="ex. JohnDoe1234@something.com">
+                </div>
+
+                <!-- Password -->
+                <div class="form-group">
+                    <label for="password">Password</label><br>
+                    <input type="text" name="password">
+                </div>
+
+                <!-- Confirm password -->
+                <div class="form-group">
+                    <label for="Confirm-password">Confirm Password</label><br>
+                    <input type="text" name="Confirm-password">
+                </div>
+
+                <!-- Sign Up Button -->
+                <div class="form-group">
+                    <button class="btn" type="submit">
+                        Sign Up 
+                    </button>
+                </div>
+
+                <!-- Bottom text  -->
+                <div id="text_at_bottom">
+                    <p id="terms-text-bottom-of-form">
+                        By clicking the Sign Up button, you agree to our <a href="#">Terms and conditions</a> and <a href="#">privacy policy</a>
+                    </p>
+                </div>
+            </form>
+        </div>
+        <p id="the-bottom-text-outside-form">Already have an account? <a href="#" id="the-login-text">Login Here</a></p>
+    </div>
+</body>
+</html>

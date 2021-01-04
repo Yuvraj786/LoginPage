@@ -1,0 +1,93 @@
+* {
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+}
+
+body {
+  background-color: #4267b2;
+}
+
+.container {
+  width: 400px;
+  padding-top: 25px;
+  margin: auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* The whole Form Wrap  */
+.form-wrap {
+  background: #fff;
+  font-family: "Raleway", sans-serif;
+  padding: 20px;
+}
+
+/* As per Form Group  */
+.form-group {
+  /* padding:15px; */
+  margin-left: 15px;
+  margin: 15px;
+}
+
+/* Labels inside Form wrap  */
+.form-wrap label {
+  font-family: Verdana, sans-serif;
+  font-size: 18px;
+}
+
+/* Inputs inside Form Wrap  */
+.form-wrap input {
+  width: 300px;
+  height: 35px;
+  border-radius: 3px;
+  border: 1px solid rgb(128, 125, 125);
+}
+
+/* Particular texts in the form  */
+#sign-up-text-starting {
+  text-align: center;
+  padding: 3px;
+}
+
+#below-starting-sign-up {
+  text-align: center;
+  font-size: 15px;
+  padding: 15px;
+}
+
+#terms-text-bottom-of-form {
+  text-align: center;
+  font-size: 15px;
+  width: 300px;
+  margin-left: 15px;
+  line-height: 1.8em;
+}
+
+#the-bottom-text-outside-form {
+  font-size: 14px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding-left: 70px;
+  color: #fff;
+  margin-top: 12px;
+}
+
+#the-login-text {
+  color: #0faf87;
+}
+/* The Submit button  */
+.btn {
+  width: 300px;
+  height: 30px;
+  font-size: 13px;
+  background: #0faf87;
+  border-radius: 5px;
+  color: #fff;
+  border: 0px;
+}
+
+.btn:hover {
+  background: rgb(17, 230, 131);
+}
